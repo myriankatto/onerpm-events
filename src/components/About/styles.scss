@@ -1,0 +1,86 @@
+@import './../../App.scss';
+
+.about {
+  width: 100vw;
+  color: white;
+  margin-top: 8em;
+  &-img {
+    width: 20vw;
+  }
+  &__container {
+    width: 80vw;
+    margin: 1em auto;
+    display: flex;
+    align-content: flex-start;
+  }
+  &__left {
+    width: 80vw;
+    margin-top: 2em;
+    flex-basis: 180%;
+    p {
+      font-size: 0.9em;
+      line-height: 1.5em;
+      text-align: left;
+      margin-bottom: 2em;
+    }
+  }
+  a {
+    color: white;
+  }
+
+  &__right {
+    margin-top: 0.5em;
+  }
+
+  &__fase {
+    display: flex;
+    align-items: center;
+    margin: 2em 0;
+    img {
+      width: 15%;
+      margin: 0 1em 0 3em;
+    }
+    h4 {
+      text-transform: uppercase;
+      text-align: left;
+      margin-bottom: 0.5em;
+    }
+    p {
+      width: 90%;
+      text-align: left;
+      font-size: 0.7em;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .about {
+    width: 100vw;
+    &-img {
+      width: 40vw;
+    }
+    &__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      &__left {
+        width: 100vw;
+        margin-top: 2em;
+      }
+    }&__fase {
+
+      img {
+        margin: 0 0.5em;
+      }}
+  }
+}
+
+@media (min-width: 1400px) {
+  .about {
+    width: 100vw;
+    &__container {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+  }
+}

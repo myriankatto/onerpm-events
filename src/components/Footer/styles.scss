@@ -1,0 +1,52 @@
+@import './../../App.scss';
+
+.footer {
+  background: $color-orange;
+  color: white;
+  font-size: 1em;
+  padding: 3em 0;
+
+  h5 {
+    font-weight: 100;
+  }
+  .social {
+    a {
+      color: white;
+      margin: 0 1em;
+      width: 80px;
+    }
+  }
+  .logos {
+    .logo-one {
+      width: 15em;
+    }
+  }
+  &__final {
+    margin-top: 3em;
+    h6 {
+      font-size: 0.8em;
+      margin-bottom: 1em;
+    }
+    span {
+      font-size: 0.6em;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .footer {
+    .logos {
+      .logo-one {
+        width: 12em;
+      }
+    }
+    &__final {
+      h6 {
+        font-size: 0.6em;
+      }
+      span {
+        font-size: 0.5em;
+      }
+    }
+  }
+}
