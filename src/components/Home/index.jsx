@@ -23,7 +23,7 @@ function Home() {
                 title="Evento gratuito em português de dois dias para artistas darem o próximo passo em suas carreiras
 "
               >
-                <img src={logoBR} alt="ONErpm academy" />
+                <img className="br" src={logoBR} alt="ONErpm academy" />
               </div>
             </Link>
             <h4>BRASIL</h4>
@@ -41,7 +41,7 @@ function Home() {
                 title="Evento gratuito en español para discutir los diferentes caminos del mundo de la música
 "
               >
-                <img src={logoES} alt="semana ONErpm" />
+                <img className="es" src={logoES} alt="semana ONErpm" />
               </div> 
             </Link>
             <h4>LATAM</h4>

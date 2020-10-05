@@ -58,23 +58,23 @@ function Agenda() {
         
             <label>
               <input type="radio"  className="" value="Todos" checked={isChecked === 'Todos'} onChange={(e) => setIsChecked(e.target.value)} />
-              Todos
+              <span>Todos</span>
             </label>
       
             <label>
               <input type="radio"  className="blue" value="Básico" checked={isChecked === 'Básico'} onChange={(e) => setIsChecked(e.target.value)} />
-              Básico
+              <span>Básico</span>
             </label>
       
             <label>
               <input type="radio" value="Intermediário" checked={isChecked === 'Intermediário'} onChange={(e) => setIsChecked(e.target.value)} />
-              Intermediário
+              <span>Intermediário</span> 
             </label>
         
       
             <label>
               <input type="radio" value="Avançado" checked={isChecked === 'Avançado'} onChange={(e) => setIsChecked(e.target.value)} />
-              Avançado
+                           <span>Avançado</span>
             </label>
        
 

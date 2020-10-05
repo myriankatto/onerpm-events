@@ -20,24 +20,24 @@ function AgendaCard(props) {
 
   return (
     <div>
-      <div className="agenda__cards">
-        <div className="agenda__item">
-          <div className="agenda__card">
+      <div className="agendaes__cards">
+        <div className="agendaes__item">
+          <div className="agendaes__card">
             <div className="card">
-              <div className="agenda__card-left">
+              <div className="agendaes__card-left">
                 <div>
                   <h6>{item.time}</h6>
-                </div>
+                  </div>
 
-                <div className="agenda__fase">
+                <div className="agendaes__fase">
                   {item.icon === 'quadrado' && (
-                    <img className="agenda__fase-img" src={quadrado} alt={item.tipo[0]} />
+                    <img className="agendaes__fase-img" src={quadrado} alt={item.tipo[0]} />
                   )}
                   {item.icon === 'triangulo' && (
-                    <img className="agenda__fase-img" src={triangulo} alt={item.tipo[0]} />
+                    <img className="agendaes__fase-img" src={triangulo} alt={item.tipo[0]} />
                   )}
                   {item.icon === 'bola' && (
-                    <img className="agenda__fase-img" src={bola} alt={item.tipo[0]} />
+                    <img className="agendaes__fase-img" src={bola} alt={item.tipo[0]} />
                   )}
                   {/* <img className="agenda__fase-img"
                     src={item.icon}
@@ -50,12 +50,12 @@ function AgendaCard(props) {
                 <img src={photo} alt={item.title} />
               </div> */}
             </div>
-            <div className="agenda__card-right">
+            <div className="agendaes__card-right">
               <h2>{item.title}</h2>
               <p>{item.subtitle}</p>
             </div>
 
-            <div className="agenda__card-icons">
+            <div className="agendaes__card-icons">
               {item.people && (
                 <img
                   className={activeIndex === index ? 'arrowdown' : 'arrowup'}
@@ -72,7 +72,7 @@ function AgendaCard(props) {
           </div>
           {activeIndex === index ? (
             <div
-              className="agenda__toggle expand-animate collapse-animate"
+              className="agendaes__toggle expand-animate collapse-animate"
               style={{ backgroundColor: `${item.color}` }}
             >
               <p>{item.people}</p>
