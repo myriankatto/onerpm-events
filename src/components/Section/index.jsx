@@ -13,6 +13,7 @@ import banner6 from '../../assets/images/banner6.jpg';
 import banner7 from '../../assets/images/banner7.jpg';
 import banner8 from '../../assets/images/banner8.jpg';
 
+
 import gif1 from '../../assets/images/FORMAS1.gif';
 import gif2 from '../../assets/images/FORMAS2.gif';
 import gif3 from '../../assets/images/FORMAS3.gif';
@@ -30,6 +31,7 @@ function Section() {
     autoplaySpeed: 5000,
     cssEase: "linear"
   };
+
 
   return (
     <div className="section">
@@ -89,6 +91,7 @@ function Section() {
           <a href="https://forms.gle/45wBXWeWEFD8tLd56" className="btn" target="_blank" rel="noopener noreferrer">
             Inscreva-se gratuitamente
           </a>
+
         </div>
       </div>
     </div>

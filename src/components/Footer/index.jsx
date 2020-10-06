@@ -46,6 +46,7 @@ function Footer() {
         <div className="footer__final">
           <h6>© COPYRIGHT 2020 – ONERPM – TODOS OS DIREITOS RESERVADOS</h6>
           <span>CRIADO E DESENVOLVIDO POR <a href="https://www.myriankatto.com" target="_blank" rel="noopener noreferrer"><b>MYRIAN KATTO</b></a></span>
+
         </div>
       </div>
     </div>

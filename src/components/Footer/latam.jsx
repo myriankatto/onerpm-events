@@ -26,6 +26,7 @@ function Footer() {
         */}
       
 
+
         <div className="footer__realização">
           <h5>REALIZAÇÃO</h5>
           <div className="logos">
@@ -69,6 +70,7 @@ function Footer() {
               <b>MYRIAN KATTO</b>
             </a>
           </span>
+
         </div>
       </div>
     </div>

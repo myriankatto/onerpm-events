@@ -14,6 +14,7 @@ function Header() {
         <img className="logo" src={logoBR} alt="ONErpm Academy" />
         <img className="data"  src={data} alt="27 e 28 de outubro" />
         <a href="https://forms.gle/45wBXWeWEFD8tLd56" className="btn">
+
           Inscreva-se gratuitamente
         </a>
         <Countdown />

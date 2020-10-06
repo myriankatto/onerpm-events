@@ -4,6 +4,7 @@ import addCalendar from '../../assets/images/add-event.svg';
 import arrowDown from '../../assets/images/down-arrow.svg';
 // import photo from '../../assets/images/photo.png';
 
+
 import bola from '../../assets/images/bola.png';
 import triangulo from '../../assets/images/triangulo.png';
 import quadrado from '../../assets/images/quadrado.png';
@@ -49,6 +50,7 @@ function AgendaCard(props) {
               </div>
               <div className="agenda__card-img">
                 <img src={item.img} alt={item.title} />
+
               </div>
             </div>
             <div className="agenda__card-right">
@@ -58,6 +60,7 @@ function AgendaCard(props) {
             </div>
             <div className="agenda__card-icons">
               {/* <img
+
                 className={activeIndex === index ? 'arrowdown' : 'arrowup'}
                 style={{ cursor: 'pointer' }}
                 onClick={() => handleChange(index)}
@@ -71,6 +74,7 @@ function AgendaCard(props) {
             </div>
           </div>
           {/* {activeIndex === index ? (
+
             <div
               className="agenda__toggle expand-animate collapse-animate"
               style={{ backgroundColor: `${item.color}` }}
@@ -80,6 +84,7 @@ function AgendaCard(props) {
           ) : (
             ''
           )} */}
+
         </div>
       </div>
     </div>

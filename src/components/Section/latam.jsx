@@ -18,6 +18,7 @@ function Section() {
         </div> */}
         {/* <div className="section__dados"> */}
           {/* <div className="section__item">
+
             <h4>50</h4>
             <span>especialistas referências do mercado</span>
           </div>
@@ -39,6 +40,7 @@ function Section() {
             <span>online e gratuito</span>
           </div>
         </div> */}
+
         <div className="section__button">
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSdmlY-wLcegaEz_aakx9v-l8QzClVu22U1uO5Cdo1km_6V0nQ/viewform"

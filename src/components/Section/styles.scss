@@ -10,6 +10,7 @@
     }
     margin: 5em 0;
   }
+
   &__container {
     margin: 3.5em 0;
     display: flex;
@@ -35,6 +36,7 @@
       padding: 0 1em;
     }
   }
+
 
   &__item {
     display: flex;
@@ -63,6 +65,7 @@
   }
   &__button {
     margin: 1em 0 2em 0;
+
     .btn {
       background-color: $color-pink;
       box-shadow: 0 8px 0 #d90d71;
@@ -96,6 +99,7 @@
     }
     margin: 3em 0;
   }
+
     &__dados {
       width: 90vw;
       margin: 2em 0;

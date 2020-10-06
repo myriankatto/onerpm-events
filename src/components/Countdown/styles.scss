@@ -1,5 +1,6 @@
 @import './../../App.scss';
 
+
 .countdown {
   color: white;
   margin-top: 1.5em;
@@ -7,6 +8,7 @@
   font-weight: 700;
 
   img {
+
     height: 23px;
   }
   span {
@@ -23,6 +25,7 @@
     // box-shadow: 0 0 15px $color-orange;
     box-shadow: 0 0 0.05rem $color-orange, inset 0 0 0.05rem $color-orange, 0 0 1rem $color-orange,
       inset 0 0 0.5rem $color-orange, 0 0 0.3rem $color-orange, inset 0 0 1rem $color-orange;
+
   }
 
   &__item {
@@ -45,3 +48,4 @@
     }
   }
 }
+
