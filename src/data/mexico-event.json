@@ -1,0 +1,213 @@
+{
+    "dia28": [
+        {
+            "title": "Emmanuel Zunz CEO ONErpm:",
+            "subtitle": "Una década de evolución en la industria de la música",
+            "people": "Emmanuel Zunz",
+            "time": "12:00 PM",
+            "tipo": ["Charla / Taller", "Todos"],
+            "color": "#FF42A8",
+            "id": 1,
+            "icon": "triangulo"
+        },
+        {
+            "title": "Showcase (TBC)",
+            "subtitle": "Delaossa (25 min)",
+            "time": "12:30 PM",
+            "tipo": ["Showcase", "Todos"],
+            "color": "#0091F1",
+            "id": 2,
+            "icon": "quadrado"
+        },
+        {
+            "title": "Presented by Nación Hip Hop",
+            "subtitle": "Hip Hop en LATAM",
+            "people": "Slang (Hector Eli), Diana Avella (gestora cultural, curadora de hip hop al parque), Julia Toporek (Aire Libre), Omega El CTM",
+            "time": "13:00 PM",
+            "tipo": ["Panel", "Todos"],
+            "color": "#FF7A3C",
+            "id": 3,
+            "icon": "bola"
+        },
+        {
+            "title": "Presented by Roland:",
+            "subtitle": "Beatmaking Camp con Bicho Blanco",
+            "time": "14:30 PM",
+            "tipo": ["Charla / Taller", "Todos"],
+            "color": "#FF42A8",
+            "id": 4,
+            "icon": "triangulo"
+        },
+        {
+            "title": "Showcase (TBC)",
+            "subtitle": "Rich Vagos (25 min)",
+            "time": "15:00 PM",
+            "tipo": ["Showcase", "Todos"],
+            "color": "#0091F1",
+            "id": 5,
+            "icon": "quadrado"
+        },
+        {
+            "title": "Presented by YOUTUBE:",
+            "subtitle": "Tips para creadores de contenido",
+            "people": "Mauricio Ojeda",
+            "time": "16:00 PM",
+            "tipo": ["Charla / Taller", "Todos"],
+            "color": "#FF42A8",
+            "id": 6,
+            "icon": "triangulo"
+        },
+        {
+            "title": "Presented by ONErpm (Mariana Franco)",
+            "subtitle": "¿Cómo romper fronteras con mi música?",
+            "people": "Carlos Jean (Ogilvy), Eduardo Fauquié/ Silvye Picotto (agencia medios), MondoSonoro/Criteria (Agencia de medios en US), Juan Manuel Caipo, Jesús Ortiz Paz (Street Amon Records) CAIPO",
+            "time": "16:30 PM",
+            "tipo": ["Panel", "Todos"],
+            "color": "#FF7A3C",
+            "id": 7,
+            "icon": "bola"
+        }
+    ],
+    "dia29": [
+        {
+            "title": "Ana Gallo + Catalina Duarte",
+            "subtitle": "Redes Sociales como plataforma de marketing",
+            "time": "12:00 PM",
+            "tipo": ["Charla / Taller", "Todos"],
+            "color": "#FF42A8",
+            "id": 1,
+            "icon": "triangulo"
+        },
+        {
+            "title": "Presented by ONErpm (Poncho Arocha)",
+            "subtitle": "El futuro del regional mexicano",
+            "time": "12:30 PM",
+            "tipo": ["Panel", "Todos"],
+            "color": "#FF7A3C",
+            "id": 2,
+            "icon": "bola"
+        },
+        {
+            "title": "Pepe Aguilar (Management) + Flor de Toloache + Chucho Rincón Mariachi contemporáneo",
+            "people": "Slang (Hector Eli), Diana Avella (gestora cultural, curadora de hip hop al parque), Julia Toporek (Aire Libre), Omega El CTM",
+            "time": "14:00 PM",
+            "tipo": ["Charla / Taller", "Todos"],
+            "color": "#FF42A8",
+            "id": 3,
+            "icon": "triangulo"
+        },
+
+        {
+            "title": "Showcase (TBC)",
+            "subtitle": "Bloque 1: LMT/Ingrid Contreras (25 min)\nBloque 2: LOBEL/Grupo Pesado (25 min)",
+            "time": "15:00 PM",
+            "tipo": ["Showcase", "Todos"],
+            "color": "#0091F1",
+            "id": 5,
+            "icon": "quadrado"
+        },
+        {
+            "title": "Capsula",
+            "subtitle": "Testimonios",
+            "time": "16:03 PM",
+            "tipo": ["Charla / Taller", "Todos"],
+            "color": "#FF42A8",
+            "id": 6,
+            "icon": "triangulo"
+        },
+        {
+            "title": "Presented by El Foro",
+            "subtitle": "Conciertos digitales D.C.",
+            "people": "Sebas (Humo), Joe Perez (Live Nation) (OCESA), Wakk (Stream Time/Manejadores), Prisa Música (ES), Daniel",
+            "time": "17:00 PM",
+            "tipo": ["Panel", "Todos"],
+            "color": "#FF7A3C",
+            "id": 7,
+            "icon": "bola"
+        }
+    ],
+    "dia30": [
+        {
+            "title": "Presented by ONErpm:",
+            "subtitle": "Licensing VS Label Deals",
+            "people": "Diego Maldonado",
+            "time": "12:00 PM",
+            "tipo": ["Charla / Taller", "Todos"],
+            "color": "#FF42A8",
+            "id": 1,
+            "icon": "triangulo"
+        },
+        {
+            "title": "Capsula",
+            "subtitle": "Testimonios",
+            "time": "12:30 PM",
+            "tipo": ["Charla / Taller", "Todos"],
+            "color": "#FF42A8",
+            "id": 2,
+            "icon": "triangulo"
+        },
+        {
+            "title": "Presented by ONErpm:",
+            "subtitle": "Publishing en la era digital",
+            "people": "Adolfo Tapia (EMMAC/SACM), ¿Amazon Originals Netflix?, Patricia Carrera (Control Freaks), Edgar Bohorquez (Sony ATV), Santiago Sanmiguel (Dr. Rock), Josh Norek (Regalías Digitales)",
+            "time": "13:30 PM",
+            "tipo": ["Panel", "Todos"],
+            "color": "#FF7A3C",
+            "id": 3,
+            "icon": "bola"
+        },
+        {
+            "title": "Presented by Tik Tok & Fit Dance:",
+            "subtitle": "El poder el influencer",
+            "time": "14:30 PM",
+            "tipo": ["Charla / Taller", "Todos"],
+            "color": "#FF42A8",
+            "id": 4,
+            "icon": "triangulo"
+        },
+        {
+            "title": "Presented by Aire Libre",
+            "subtitle": "Panel/Showcase La Otra Música",
+            "time": "15:00 PM",
+            "tipo": ["Panel", "Showcase", "Todos"],
+            "color": "#0091F1",
+            "id": 5,
+            "icon": "quadrado"
+        },
+        {
+            "title": "Capsula",
+            "subtitle": "Testimonios",
+            "time": "16:30 PM",
+            "tipo": ["Charla / Taller", "Todos"],
+            "color": "#FF42A8",
+            "id": 6,
+            "icon": "triangulo"
+        },
+        {
+            "title": "Charla Aire Libre",
+            "subtitle": "Streaming vs Radio",
+            "time": "17:00 PM",
+            "tipo": ["Panel", "Todos"],
+            "color": "#FF7A3C",
+            "id": 7,
+            "icon": "bola"
+        },
+        {
+            "title": "Presented by El Foro (TBC)",
+            "people": "HS, GS, Odisseo, Technicolor, Camilo 7º",
+            "time": "17:30 PM",
+            "tipo": ["Panel", "Todos"],
+            "color": "#FF7A3C",
+            "id": 8,
+            "icon": "bola"
+        },
+        {
+            "title": "Dj Set/showcase",
+            "time": "18:00 PM",
+            "tipo": ["Panel", "Todos"],
+            "color": "#FF7A3C",
+            "id": 9,
+            "icon": "bola"
+        }
+    ]
+}

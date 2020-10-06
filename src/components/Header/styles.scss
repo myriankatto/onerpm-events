@@ -1,0 +1,94 @@
+@import './../../App.scss';
+
+.header {
+  background-color: $color-dark;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:3em;
+  }
+  .bg {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    object-fit: cover;
+  }
+  .logo {
+   width: 45vw;
+    margin: 1em 0;
+  }
+
+  .data {
+   width: 20vw; 
+    margin-bottom: 1em;
+  }
+  .btn {
+    margin-top: 1.5em;
+    background-color: $color-pink;
+    box-shadow: 0 8px 0 #d90d71;
+    color: white;
+    padding: 1em 2em;
+    font-size: 1em;
+    font-weight: 700;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    &:hover {
+      background-color: #ec1f82;
+      color: white;
+    }
+
+    &:active {
+      box-shadow: none;
+      top: 5px;
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .header {
+    &__container {
+      margin: 0 auto;
+    }
+    .logo {
+      width: 70vw;
+       margin: 1em 0;
+     }
+   
+  .data {
+    width: 30vw; 
+     margin-bottom: 1em;
+   }
+  }
+
+}
+
+@media (min-width: 1400px) {
+  .header {
+    &__container {
+      width: 1400px;
+      margin: 0 auto;
+      margin-top: 10%;
+      margin-bottom: 15em;
+    }
+    .logo {
+      width: 35vw;
+       margin: 1em 0;
+     }
+   
+     .data {
+      width: 10vw; 
+       margin-bottom: 1em;
+     }
+     .bg {
+
+      height: 107vh;
+
+    }
+  }
+}

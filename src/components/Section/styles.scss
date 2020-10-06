@@ -1,0 +1,121 @@
+@import './../../App.scss';
+
+.section {
+  background: $color-dark;
+  margin-top: -4em;
+
+  &__video {
+    video {
+      width: 600px;
+    }
+    margin: 5em 0;
+  }
+  &__container {
+    margin: 3.5em 0;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+  }
+  &__dados {
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    margin: 5em 0;
+    // align-items: center;
+    img {
+      margin: 3em 0;
+    }
+  }
+  &__carousel {
+    width: 60vw;
+    margin: 4em auto 0 auto;
+    img {
+      width: 60vw;
+      padding: 0 1em;
+    }
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+    h4 {
+      font-size: 70px;
+      font-weight: bold;
+      background: linear-gradient(to bottom, #ff6822, #ff42a8, #0091f1);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      max-width: 350px;
+      text-transform: uppercase;
+      line-height: 0.77;
+    }
+    span {
+      margin-top: 1em;
+      color: white;
+      font-size: 0.8em;
+      text-transform: uppercase;
+    }
+  }
+  .formas {
+    height: 2em;
+    width: 2em;
+  }
+  &__button {
+    margin: 1em 0 2em 0;
+    .btn {
+      background-color: $color-pink;
+      box-shadow: 0 8px 0 #d90d71;
+      color: white;
+      padding: 1em 2em;
+      font-size: 1em;
+      font-weight: 700;
+      position: relative;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: all 0.3s;
+      &:hover {
+        background-color: #ec1f82;
+        color: white;
+      }
+
+      &:active {
+        box-shadow: none;
+        top: 5px;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .section {
+
+  &__video {
+    video {
+      width: 300px;
+    }
+    margin: 3em 0;
+  }
+    &__dados {
+      width: 90vw;
+      margin: 2em 0;
+      display: flex;
+    }
+    &__item {
+      h4 {
+        font-size: 30px;
+      }
+      span {
+        font-size: 0.5em;
+      }
+    }
+    .formas {
+      height: 0.5em;
+      width: 0.5em;
+      margin-top: 0.4em;
+    }
+  }
+  &__button {
+    margin: 1em 0;
+  }
+}
