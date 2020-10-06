@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Salud mental & sustentabilidad",
+    "subtitle": "Beatmaking Camp con Bicho Blanco",
+    "time": "10:00 AM",
+    "tipo": ["Charla / Taller", "Todos"],
+    "color": "#FF42A8",
+    "id": 4,
+    "icon": "triangulo"
+  },
+  {
+    "dia": "28",
+    "title": "Workshop do Twitter",
+    "person": "Joema Martins",
+    "time": "15:45 PM",
+    "fase": ["Básico", "Todos"],
+    "img": "https://res.cloudinary.com/dq4jevckc/image/upload/v1602005200/ONErpm%20/27_qzkkts.png",
+    "description": "Como artistas podem utilizar a plataforma de forma profissional: \n- trendings - o que é o que serve  \n- promoção (unlock) - estratégias de divulgação \n- ferramentas e suas funcionalidades",
+    "twitter": "http://www.twitter.com",
+    "facebook": "http://www.facebook.com",
+    "instagram": "http://www.instagram.com",
+    "color": "#0091F1",
+    "id": 19,
+    "icon": "quadrado",
+    "tipo": "Workshop",
+    "calendar": "https://www.google.com/calendar/render?action=TEMPLATE&text=ONErpm+ACADEMY&details=ONErpm+Academy+%C3%A9+um+evento+digital+gratuito+formado+por+uma+s%C3%A9rie+de+pain%C3%A9is%2C+workshops+e+bate-papos+para+ensinar+artistas+e+selos+como+darem+o+pr%C3%B3ximo+passo+de+suas+carreiras.+No+total+ser%C3%A3o+dois+dias+de+aprendizagem+com+grandes+nomes+do+mercado+da+m%C3%BAsica+e+especialistas+das+principais+plataformas+de+streaming+e+redes+sociais.%0A%0Ahttps%3A%2F%2Fwww.youtube.com%2Fc%2FONErpmTV%2Ffeatured&dates=20201028T151500Z%2F20201028T230000Z"
+  },
+  {
+    "dia": "28",
+    "title": "Workshop do Instagram",
+    "person": "Luiz Garcia (Facebook)",
+    "time": "16:45 PM",
+    "fase": ["Básico", "Todos"],
+    "img": "https://res.cloudinary.com/dq4jevckc/image/upload/v1602005200/ONErpm%20/27_qzkkts.png",
+    "description": "Como artistas podem utilizar a plataforma de forma profissional:\n- reels - o que é para que serve \n- IGTV - estratégias de divulgação\n- ferramentas e suas funcionalidades",
+    "twitter": "http://www.twitter.com",
+    "facebook": "http://www.facebook.com",
+    "instagram": "http://www.instagram.com",
+    "color": "#0091F1",
+    "id": 21,
+    "icon": "quadrado",
+    "tipo": "Workshop",
+    "calendar": "https://www.google.com/calendar/render?action=TEMPLATE&text=ONErpm+ACADEMY&details=ONErpm+Academy+%C3%A9+um+evento+digital+gratuito+formado+por+uma+s%C3%A9rie+de+pain%C3%A9is%2C+workshops+e+bate-papos+para+ensinar+artistas+e+selos+como+darem+o+pr%C3%B3ximo+passo+de+suas+carreiras.+No+total+ser%C3%A3o+dois+dias+de+aprendizagem+com+grandes+nomes+do+mercado+da+m%C3%BAsica+e+especialistas+das+principais+plataformas+de+streaming+e+redes+sociais.%0A%0Ahttps%3A%2F%2Fwww.youtube.com%2Fc%2FONErpmTV%2Ffeatured&dates=20201028T151500Z%2F20201028T230000Z"
+  }
+]

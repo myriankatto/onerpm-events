@@ -3,6 +3,14 @@
 .section {
   background: $color-dark;
   margin-top: -4em;
+
+  &__video {
+    video {
+      width: 600px;
+    }
+    margin: 5em 0;
+  }
+
   &__container {
     margin: 3.5em 0;
     display: flex;
@@ -20,6 +28,15 @@
       margin: 3em 0;
     }
   }
+  &__carousel {
+    width: 60vw;
+    margin: 4em auto 0 auto;
+    img {
+      width: 60vw;
+      padding: 0 1em;
+    }
+  }
+
 
   &__item {
     display: flex;
@@ -47,7 +64,8 @@
     width: 2em;
   }
   &__button {
-    margin: 3em 0;
+    margin: 1em 0 2em 0;
+
     .btn {
       background-color: $color-pink;
       box-shadow: 0 8px 0 #d90d71;
@@ -74,6 +92,14 @@
 
 @media (max-width: 800px) {
   .section {
+
+  &__video {
+    video {
+      width: 300px;
+    }
+    margin: 3em 0;
+  }
+
     &__dados {
       width: 90vw;
       margin: 2em 0;

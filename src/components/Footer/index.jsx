@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.scss';
 
+
 import logoONE from '../../assets/images/LOGO_WHITE.png';
 import { Icon } from '@iconify/react';
 import twitterIcon from '@iconify/icons-feather/twitter';
@@ -44,7 +45,8 @@ function Footer() {
         </div>
         <div className="footer__final">
           <h6>© COPYRIGHT 2020 – ONERPM – TODOS OS DIREITOS RESERVADOS</h6>
-          <span>CRIADO E DESENVOLVIDO POR <b>MYRIAN KATTO</b></span>
+          <span>CRIADO E DESENVOLVIDO POR <a href="https://www.myriankatto.com" target="_blank" rel="noopener noreferrer"><b>MYRIAN KATTO</b></a></span>
+
         </div>
       </div>
     </div>

@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 
 import addCalendar from '../../assets/images/add-event.svg';
 import arrowDown from '../../assets/images/down-arrow.svg';
-import photo from '../../assets/images/photo.png';
+// import photo from '../../assets/images/photo.png';
+
 
 import bola from '../../assets/images/bola.png';
 import triangulo from '../../assets/images/triangulo.png';
@@ -48,7 +49,8 @@ function AgendaCard(props) {
                 </div>
               </div>
               <div className="agenda__card-img">
-                <img src={photo} alt={item.title} />
+                <img src={item.img} alt={item.title} />
+
               </div>
             </div>
             <div className="agenda__card-right">
@@ -57,20 +59,22 @@ function AgendaCard(props) {
               <p>{item.person}</p>
             </div>
             <div className="agenda__card-icons">
-              <img
+              {/* <img
+
                 className={activeIndex === index ? 'arrowdown' : 'arrowup'}
                 style={{ cursor: 'pointer' }}
                 onClick={() => handleChange(index)}
                 src={arrowDown}
                 alt="arrow down"
-              />
+              /> */}
 
               <a href={item.calendar} target="_blank" rel="noopener noreferrer">
                 <img src={addCalendar} alt="add to calendar" />
               </a>
             </div>
           </div>
-          {activeIndex === index ? (
+          {/* {activeIndex === index ? (
+
             <div
               className="agenda__toggle expand-animate collapse-animate"
               style={{ backgroundColor: `${item.color}` }}
@@ -79,7 +83,8 @@ function AgendaCard(props) {
             </div>
           ) : (
             ''
-          )}
+          )} */}
+
         </div>
       </div>
     </div>

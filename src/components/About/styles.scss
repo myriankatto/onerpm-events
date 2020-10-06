@@ -52,8 +52,6 @@
     }
   }
 }
-
-
 .aboutes {
   width: 100vw;
   color: white;
@@ -127,23 +125,29 @@
         width: 100vw;
         margin-top: 2em;
       }
-    }&__fase {
-
+    }
+    &__fase {
       img {
         margin: 0 0.5em;
-      }}
+      }
+    }
   }
- .aboutes{
-  margin-top: 5em;
-   .aboutes-img{
-     width: 40vw;
-   }
- }
+  .aboutes {
+    margin-top: 5em;
+    .aboutes-img {
+      width: 40vw;
+    }
+  }
+
 }
 
 @media (min-width: 1400px) {
   .about {
     width: 100vw;
+    &-img {
+      margin: 5em 0;
+    }
+
     &__container {
       max-width: 1400px;
       margin: 0 auto;

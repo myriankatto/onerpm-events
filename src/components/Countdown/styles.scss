@@ -7,7 +7,8 @@
   font-size: 2.5em;
   font-weight: 700;
 
-  img{
+  img {
+
     height: 23px;
   }
   span {
@@ -19,16 +20,11 @@
     display: flex;
     // flex-direction: row;
     align-items: center;
-padding: 0.5em 1em;
-border: 1px solid $color-orange;
-// box-shadow: 0 0 15px $color-orange;
-box-shadow:
-            0 0 .05rem $color-orange,
-            inset 0 0 .05rem $color-orange,
-            0 0 1rem $color-orange,
-            inset 0 0 0.5rem $color-orange,
-            0 0 0.3rem $color-orange,
-            inset 0 0 1rem $color-orange;   
+    padding: 0.5em 1em;
+    border: 1px solid $color-orange;
+    // box-shadow: 0 0 15px $color-orange;
+    box-shadow: 0 0 0.05rem $color-orange, inset 0 0 0.05rem $color-orange, 0 0 1rem $color-orange,
+      inset 0 0 0.5rem $color-orange, 0 0 0.3rem $color-orange, inset 0 0 1rem $color-orange;
 
   }
 
@@ -39,13 +35,17 @@ box-shadow:
   }
 }
 
-
 @media (max-width: 800px) {
-  .countdown{
-    font-size: 2em;
+  .countdown {
+    font-size: 1.8em;
+    width: 73vw;
 
-  img{
-    height: 10px;
-  }
+    img {
+      height: 10px;
+    }
+    &__wrapper {
+  
+    }
   }
 }
+
